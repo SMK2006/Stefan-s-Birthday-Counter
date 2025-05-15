@@ -5,6 +5,8 @@ html, body {
   margin: 0;
 }
 
+
+
 body {
   display: flex;
   justify-content: center;
@@ -16,10 +18,7 @@ body {
   font-size: 18px;
 }
 
-#main-content{
-  padding: 0 auto;
-  width: 620px;
-}
+
 
 svg#car {
   width: 100%;
