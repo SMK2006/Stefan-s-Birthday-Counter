@@ -4,6 +4,11 @@ html, body {
   height: 100%;
   margin: 0;
 }
+
+* {
+  outline: 1px solid red;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -15,6 +20,11 @@ body {
   font-size: 18px;
 }
 
+#main-content{
+  padding: 0 auto;
+  width: 620px;
+}
+
 svg#car {
   width: 100%;
   max-width: 600px; /* optional limit */
@@ -22,7 +32,7 @@ svg#car {
 }
 
 .main {
-  max-width: 90%;
+  max-width: 80%;
   height: 350px;
   display: flex;
   justify-content: center;
